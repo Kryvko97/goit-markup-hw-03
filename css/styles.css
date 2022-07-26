@@ -81,8 +81,8 @@ line-height:calc(31/26);
 letter-spacing: 0.03em;
 color:var(--logo-one-color);
 margin-right: 93px;
-padding-top: 25px;
-padding-bottom: 25px;
+padding-top: 24px;
+padding-bottom: 24px;
 }
 .logo-accent{
 font-family:'Raleway',sans-serif;
@@ -206,7 +206,7 @@ margin-bottom: 10px;
 }
 .about-text {
 font-size: 14px;
-line-height:calc(24/14);
+line-height:calc(24 / 14);
 letter-spacing: 0.03em;
 color:var(--text-color);
 }
@@ -216,7 +216,7 @@ color:var(--text-color);
 .project-title {
 font-weight: 700;
 font-size: 36px;
-line-height:calc(42/36);
+line-height:calc(42 / 36);
 text-align: center;
 letter-spacing: 0.03em;
 color:var(--title-color);
@@ -235,7 +235,7 @@ margin-bottom:50px;
 .team-title {
 font-weight: 700;
 font-size: 36px;
-line-height:calc(42/36);
+line-height:calc( 42 / 36);
 text-align: center;
 letter-spacing: 0.03em;
 color:var(--title-color);
@@ -247,7 +247,7 @@ margin-bottom: 50px;;
 }
 .team-item {
   background-color: #FFFFFF;
-  width: calc(100%/3-30px);
+  width: calc(100% / 3 - 30px);
   margin: 15px;
   border: #757575;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -256,16 +256,15 @@ margin-bottom: 50px;;
 .team-after-title {
 font-weight: 500;
 font-size: 16px;
-line-height:calc(19/16);
+line-height:calc(19 / 16);
 text-align: center;
 letter-spacing: 0.03em;
 color:var(--title-color);
-margin-top: 30px;
 margin-bottom: 10px;
 }
 .team-text{
 font-size: 16px;
-line-height:calc(19/16);
+line-height:calc(19 / 16);
 text-align: center;
 letter-spacing: 0.03em;
 color:var(--text-color);
@@ -280,19 +279,20 @@ padding-bottom: 30px;}
 
 }
 
-.footer-list{}
-.footer-l{
-  margin-bottom: 20px;
+.footer-list{
+  /* margin-top: 20px  ; */
 }
+
 .footer-iten:not(:last-child) {
   margin-bottom: 9px;
 }
 .footer-link {
 font-style: inherit;
 font-size: 14px;
-line-height:calc(24/14);
+line-height:calc(24 / 14);
 letter-spacing: 0.03em;
 color: var(--tex-buton-color);
+margin-bottom:20px;
 }
 .footer-link:focus,
 .footer-link:hover{
@@ -303,10 +303,10 @@ color: var(--text-link-color-hover);
 font-style:none; 
 font-weight: 700;
 font-size: 26px;
-line-height:calc(31/26);
+line-height:calc(31 / 26);
 letter-spacing: 0.03em;
 color:var(--logo-one-color);
-margin-bottom: 20px;
+padding-bottom: 220px;
 }
 .logo-accent-footer{
 color: var(--color-h1-title);
@@ -333,7 +333,6 @@ color: var(--color-h1-title);
   margin-bottom: 50px;
   display:flex;
   justify-content:center;
-  margin-top: ;
 }
 .work-item:not(:last-child){
   margin-right:8px;
@@ -382,7 +381,6 @@ font-size: 18px;
 line-height:calc(36 / 18);
 letter-spacing: 0.06em;
 color:var(--title-color);
-margin-top:20px;
 
 }
 .work-text{
