@@ -306,7 +306,8 @@ font-size: 26px;
 line-height:calc(31 / 26);
 letter-spacing: 0.03em;
 color:var(--logo-one-color);
-padding-bottom: 220px;
+margin-bottom:20px;
+display: block
 }
 .logo-accent-footer{
 color: var(--color-h1-title);
